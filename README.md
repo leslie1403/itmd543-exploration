@@ -1,3 +1,26 @@
+# ITMD543 Framework Exploration Assignment 
+
+## Project Description
+
+
+## Setup Instructions 
+
+
+## Framwork Used 
+For this project I used the Angular framewrok. 
+
+## Deployment URL 
+The deployment URL is as follows: 
+
+
+
+
+
+
+
+
+
+
 # Itmd543Angular
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
