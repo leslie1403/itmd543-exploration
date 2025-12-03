@@ -75,22 +75,22 @@ export class ServicesComponent {
         },
         {
           name: 'Wired Handheld Microphone',
-          description: 'Main PA system for music playback and speeches.',
+          description: 'Wired microphone ensures microphone does not move around the venue.',
           imageUrl: '/assets/services/wired-mic.png',
         },
         {
           name: 'Table Top Stand',
-          description: 'Standard presentation setup for slides and videos.',
+          description: 'Great mic stand for presenters who have a podium or table. Sits comfortably on flat surface.',
           imageUrl: '/assets/services/tabletop-stand.png',
         },
         {
           name: 'Floor Stand',
-          description: 'Even wash lighting for the stage area.',
+          description: 'Perfect mic stand for presenters who do not have a podium or table. Can be modified to fit different heights and can be used as a boom stand for musicians.',
           imageUrl: '/assets/services/floor-stand.png',
         },
         {
           name: 'Confidence Monitor',
-          description: 'Even wash lighting for the stage area.',
+          description: 'Monitor for presentor, 43\' TV monitor',
           imageUrl: '/assets/services/confidence-monitor.png',
         },
       ],
