@@ -1,0 +1,18 @@
+.nav-link {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    transition: border-color 150ms ease, color 150ms ease;
+}
+
+.nav-link:hover {
+    border-bottom-color: #d12d69;
+    color: #d12d69
+}
+
+.nav-link-active {
+    color: #ff0000;
+}

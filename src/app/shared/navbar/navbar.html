@@ -1,0 +1,21 @@
+<header class="bg-black border-b-4 border-red-500">
+  <nav class="max-w-6xl mx-auto flex items-baseline justify-between px-4 py-3 text-white">
+    <h1 class="text-2xl font-semibold">
+      Event Services
+    </h1>
+
+    <div class="flex gap-4">
+      <a routerLink="/" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="nav-link-active" class="nav-link">
+        Upcoming Events
+      </a>
+
+      <a routerLink="/venues" routerLinkActive="nav-link-active" class="nav-link">
+        Venues
+      </a>
+
+      <a routerLink="/services" routerLinkActive="nav-link-active" class="nav-link">
+        Our Services
+      </a>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,27 @@
+<section class="space-y-6">
+  <div>
+    <h1 class="text-3xl font-bold text-slate-900">Venues: Hermann Hall Conference Center</h1>
+    <p class="mt-2 text-slate-600">
+      Choose from a variety of spaces within our campus buildings to match the size and style of your event.
+    </p>
+  </div>
+
+  <div class="grid gap-6 md:grid-cols-3">
+    @for (venue of venues; track $index) {
+    <article class="bg-white rounded-xl shadow-sm border border-slate-200 p-4">
+      @if (venue.imageUrl) {
+      <img [src]="venue.imageUrl" [alt]="venue.name" class="w-full h-40 object-cover rounded-lg mb-3" />
+      }
+      <h2 class="text-lg font-semibold text-slate-900">
+        {{ venue.name }}
+      </h2>
+      <p class="mt-1 text-sm text-slate-500">
+        {{ venue.capacity }}
+      </p>
+      <p class="mt-2 text-sm text-slate-700">
+        {{ venue.description }}
+      </p>
+    </article>
+    }
+  </div>
+</section>
